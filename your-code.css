@@ -36,8 +36,15 @@
     width: auto;
     margin-left: 300px;
     /*/* Your animation here */
+    animation: 2s linear 10s infinite running spin;
 }
+
+/* .earth_svg:hover {
+    
+} */
 
 @keyframes spin {
     /*/* Set up your keyframe animation here */
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
