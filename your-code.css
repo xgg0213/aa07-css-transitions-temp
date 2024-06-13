@@ -36,7 +36,8 @@
     width: auto;
     margin-left: 300px;
     /*/* Your animation here */
-    animation: 2s linear 10s infinite running spin;
+    animation: 1s linear 5s infinite running spin;
+    /* if only 1 time, it refers to duration (how fast each animation runs); if 2, the 2nd is the time elapsed between each animation run */
 }
 
 /* .earth_svg:hover {
