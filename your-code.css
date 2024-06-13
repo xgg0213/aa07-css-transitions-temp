@@ -20,7 +20,11 @@
     height: 200px;
     width: auto;
     margin-left: 200px;
-    /* Your code here 
+    /* Your code here */
+}
+
+.astronaut_svg:hover {
+    transform: translate(100px);
 }
 
 /*/* Create astronaut hover animation here */
